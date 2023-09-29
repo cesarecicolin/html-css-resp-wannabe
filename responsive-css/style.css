@@ -1,4 +1,59 @@
 /*************************************************
    RESPONSIVE STYLES
  *************************************************/
- 
+
+ /* 768 PX */
+ @media screen and (max-width:768px) {
+  .container{
+      width: 100%;
+  }
+}
+/* 480 PX */
+@media screen and (max-width:480px ) {
+  
+  /* UTILITIES */
+  .row{
+      display: flex;
+      flex-direction: column;
+      flex-wrap: wrap;
+      align-content: center;
+      
+  }
+  /* STEPS SECTION */
+  .lessons .col {
+    width: 100%;
+    margin-bottom: 3rem;
+  }
+
+    .steps .col {
+      width: 100% ;
+      margin-bottom: 2rem;
+  }
+
+  .steps {
+    margin: 0;
+    
+  }
+/* WHY US SECTION */
+.why-us{
+  background-color: #222222;
+  margin-bottom: 0;
+}
+
+
+.why-us h2{
+  padding: 2rem;
+}
+
+  .why-us .col-left {
+    width: 100%;
+    margin-bottom: 2rem;
+}
+.why-us .col-right {
+  width: 100%;
+}
+
+
+  
+}
+  
